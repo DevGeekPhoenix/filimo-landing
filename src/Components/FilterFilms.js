@@ -112,7 +112,7 @@ const FilterFilms = () => {
         />
       </div>
       <div>
-        <button className="pt-2.5 pb-2.5 pl-10 pr-10 text-xs mr-3 rounded bg-[#fdc13c]">
+        <button className="h-full w-28 text-xs mr-3 rounded bg-[#fdc13c]">
           اعمال فیلتر
         </button>
       </div>

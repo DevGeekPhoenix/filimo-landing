@@ -7,9 +7,6 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/doctor/:id" element={<SingleDoctor />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/doctordcardlist" element={<DoctorsCardList />} /> */}
       </Routes>
     </div>
   );

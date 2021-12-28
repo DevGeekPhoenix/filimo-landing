@@ -2,7 +2,7 @@ import { Component } from "react";
 import "../App.css";
 import Navbar from "../Components/Navbar";
 import SlideShow from "../Components/ImgSlider";
-import { Link } from "react-router-dom";
+import SpecialFilms from "../Components/SpecialFilms";
 import FilterFilms from "../Components/FilterFilms";
 
 class App extends Component {
@@ -14,6 +14,7 @@ class App extends Component {
         </div>
         <SlideShow />
         <FilterFilms />
+        <SpecialFilms />
       </div>
     );
   }
